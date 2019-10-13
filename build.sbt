@@ -1,8 +1,6 @@
 name := "aws-lambda-scala"
 
-
-val scalaV212 = "2.12.4"
-scalaVersion := scalaV212
+scalaVersion := "2.13.0"
 
 scalacOptions in ThisBuild ++= Seq("-unchecked", "-deprecation")
 
